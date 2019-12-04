@@ -1,11 +1,17 @@
-# meta
-author:      "Zsolt Jurányi"
-baseurl:     "/bootstrap4-test-page"
-description: "Sample page for Bootstrap 4 components. Try out the default theme or your custom stylesheet."
-title:       "Bootstrap 4 test page"
-url:         "https://juzraai.github.io"
+# Jekyll Configuration
+#
 
-# build
+title: Chicago Design System Bootstrap 4 Sample Components Page
+email: design-system@cityofchicago.org
+description: >- # this means to ignore newlines until "baseurl:"
+    Sample page for Chicago Design System Bootstrap 4 components based on Sample page for Bootstrap 4 components by Zsolt Jurányi
+baseurl: ""
+url: "https://chicago.github.io/" 
+twitter_username: chiDesignDir
+github_username:  jdkunesh
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
 exclude:
-  - LICENSE
   - README.md
