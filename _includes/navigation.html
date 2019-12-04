@@ -1,0 +1,28 @@
+<nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+	<div class="container">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my-navbar" aria-controls="my-navbar" aria-expanded="false"
+		 aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="my-navbar">
+			<div class="navbar-nav mr-auto">
+				{% for section in site.data.sections %}
+					{% assign href = section.name | handleize | replace: ' ', '-' | downcase | prepend: "#" %}
+					{% include generator/nav-link.html href=href name=section.name icon=section.icon %}
+				{% endfor %}
+			</div>
+			<div class="navbar-nav">
+				{% include generator/nav-link.html
+					href="https://getbootstrap.com/docs/4.1/" blank=1
+					name="Bootstrap documentation"
+					icon="book"
+				%}
+				{% include generator/nav-link.html
+					href="https://github.com/juzraai/bootstrap4-test-page"
+					name="Source code"
+					icon="github"
+				%}
+			</div>
+		</div>
+	</div>
+</nav>
