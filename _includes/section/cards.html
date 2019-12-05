@@ -158,7 +158,7 @@
 	{% for color in site.data.colors %}
 		{% if color == "white" %}{% continue %}{% endif %}
 		<div class="col-sm-6 col-md-4 col-xl-3">
-			<div class="card border-{{ color }} mb-3" style="max-width: 20rem;">
+			<div class="card border-{{ color }} mb-3" >
 				<div class="card-header">Header</div>
 				<div class="card-body">
 					<h4 class="card-title">{{ color | capitalize }} card</h4>
