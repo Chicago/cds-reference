@@ -141,7 +141,7 @@
 		{% if color == "white" %}{% continue %}{% endif %}
 		{% capture textClass %}{% if color == "light" or color == "warning" %}{% else %}text-white{% endif %}{% endcapture %}
 		<div class="col-sm-6 col-md-4 col-xl-3">
-			<div class="card {{ textClass }} bg-{{ color }} mb-3" style="max-width: 20rem;">
+			<div class="card {{ textClass }} bg-{{ color }} mb-3">
 				<div class="card-header">Header</div>
 				<div class="card-body">
 					<h4 class="card-title">{{ color | capitalize }} card</h4>
