@@ -5,7 +5,7 @@ title: Chicago Design System Bootstrap 4 Sample Components Page
 email: design-system@cityofchicago.org
 description: >- # this means to ignore newlines until "baseurl:"
     Sample page for Chicago Design System Bootstrap 4 components based on Sample page for Bootstrap 4 components by Zsolt Jurányi
-baseurl: "/cds-reference"
+baseurl: "/cds-reference/"
 url: "https://chicago.github.io/" 
 twitter_username: chiDesignDir
 github_username:  jdkunesh
