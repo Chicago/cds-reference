@@ -111,3 +111,7 @@
   docs:
     - link: components/modal
       text: Modal
+
+- name: Footer
+  icon: bars
+
