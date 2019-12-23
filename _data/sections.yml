@@ -1,5 +1,5 @@
 - name: Typography
-  icon: paragraph
+  icon: font
   docs:
     - link: content/typography
       text: Typography
@@ -11,7 +11,7 @@
       text: Text utility
 
 - name: Images
-  icon: picture-o
+  icon: images
   docs:
     - link: content/images
       text: Image
@@ -51,13 +51,13 @@
       text: Jumbotron
 
 - name: Cards
-  icon: square-o
+  icon: address-card
   docs:
     - link: components/card
       text: Card
 
 - name: Forms
-  icon: pencil
+  icon: pencil-alt
   docs:
     - link: components/forms
       text: Form
@@ -93,7 +93,7 @@
       text: Alert
 
 - name: Popovers
-  icon: info-circle
+  icon: exclamation-circle
   docs:
     - link: components/popovers
       text: Popover
@@ -113,5 +113,5 @@
       text: Modal
 
 - name: Footer
-  icon: bars
+  icon: shoe-prints
 
