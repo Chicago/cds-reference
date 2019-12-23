@@ -111,3 +111,9 @@
   docs:
     - link: components/modal
       text: Modal
+
+- name: Footers
+  icon: shoe-prints
+  docs:
+    
+
