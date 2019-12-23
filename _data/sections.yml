@@ -114,4 +114,7 @@
 
 - name: Footer
   icon: shoe-prints
+  docs:
+    - link: components/modal
+      text: Modal
 
