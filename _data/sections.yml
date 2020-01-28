@@ -57,7 +57,7 @@
       text: Card
 
 - name: Collapse
-  icon: address-card
+  icon: plus-square
   docs:
     - link: components/collapse
       text: Collapse
