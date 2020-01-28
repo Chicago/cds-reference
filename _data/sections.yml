@@ -56,6 +56,12 @@
     - link: components/card
       text: Card
 
+- name: Collapse
+  icon: address-card
+  docs:
+    - link: components/collapse
+      text: Collapse
+
 - name: Forms
   icon: pencil-alt
   docs:
