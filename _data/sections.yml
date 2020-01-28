@@ -70,6 +70,10 @@
     - link: components/input-group
       text: Input group
 
+- name: Datepicker
+  icon: calendar-alt
+  docs:
+
 - name: Navs
   icon: bars
   docs:

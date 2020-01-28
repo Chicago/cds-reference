@@ -4,6 +4,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.4/holder.min.js"></script>
 <script src="https://chicago.github.io/design-cds-bootstrap/assets/js/uswds.min.js"></script>
+<script src="https://chicago.github.io/design-cds-bootstrap/assets/js/datepicker.min.js"></script>
 <script>
    $(function () {
 	   $('[data-toggle="popover"]').popover();
@@ -18,4 +19,18 @@
 	   $('#popover-toggler').click();
    });
    hljs.initHighlightingOnLoad();
-</script>
+
+//<!-- DATEPICKER Init-->
+
+    (function($) {
+      $(function() {
+        const getNavigatorLanguage = () => (navigator.languages && navigator.languages.length) ? navigator.languages[0] : navigator.userLanguage || navigator.language || navigator.browserLanguage || 'en';
+        $(".datepicker")
+          .filter(function() {
+            return !this.disabled && !this.readOnly;
+          })
+          .datepicker({ gainFocusOnConstruction: false, markup: 'bootstrap4' });
+         $('#date13').datepicker('next', '#date14');
+      });
+    })(this.jQuery);
+  </script>
