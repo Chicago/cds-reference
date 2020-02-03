@@ -121,6 +121,8 @@
   docs:
     - link: components/modal
       text: Modal
+    - link: components/modal/#accessibility
+      text: Accessibility
 
 - name: Footers
   icon: shoe-prints
